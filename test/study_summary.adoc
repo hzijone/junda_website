@@ -1,0 +1,12 @@
+= 网页学习总结
+
+== 为了将footer 置于底下，选择用了jquery方式，计算高度，然后将其置底
+* 主要思路有两种：
+  . 用body 的height：100%， 再进行padding-botoom 预留位置， 在footer用margin-top进行顶上。具体查看：<http://www.w3cplus.com/css/css-sticky-foot-at-bottom-of-the-page>
+  . jquery计算高度，计算其放置位置
+  . 尽量按照html格式，避免一些奇怪错误
+
+
+CAUTION: `*不借用框架实现页面效果，用上述的第一种方法*`。
+
+

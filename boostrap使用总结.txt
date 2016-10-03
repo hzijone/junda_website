@@ -1,0 +1,38 @@
+bootstrap使用总结:
+tooltip.js是用来鼠标移动时显示其title
+
+用data-toggle="tooltip"可以实现不重新刷新页面，直接显示文字。
+
+
+
+图片轮播效果 carousel.js
+carousel.js对图片要求格式高度宽度一致才行。（不用保持一致）
+
+
+class="span12" 一般用于整体设计
+没有指定class="col-sm-12"，为啥图片覆盖前面的内容了。
+
+加入<div class="row"> bootstrap才会识别&nbsp <br>这些隔距。
+
+
+boostrap里的nav 的li是根据文字进行自动换行，要使不换行的话，增加宽度大大的。
+
+
+
+
+用bootstrap的三种试：
+1、导航栏
+
+2、下拉菜单
+感觉bootstrap是为了移动而生的，不太适合电脑。
+比如说：bootstrap 只有上下拉菜单，而无左右菜单
+
+3、折叠
+ 公司的产品 用折叠方式解决并且用collapse定位左侧导航。
+
+
+ 
+ 用div class="row",不用指定col-md-offset位置，boostrap会自动填补
+
+
+ col-md-offset-3 
